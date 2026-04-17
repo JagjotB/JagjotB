@@ -33,5 +33,3 @@ GCP • AWS • Postgres • Supabase
 
 LinkedIn: https://linkedin.com/in/jagjotbisram  
 Email: bisramjagjot@gmail.com  
-
-Open to AI Systems, MLOps, and Backend AI Infrastructure roles.
