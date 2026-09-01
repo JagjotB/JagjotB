@@ -1,6 +1,6 @@
 # Jagjot Bisram
 
-**AI/ML Engineer | AI Systems | Backend Infrastructure | MLOps**
+**AI/ML Systems Engineer | Backend Infrastructure | MLOps**
 
 I build production AI and machine learning systems across the full engineering lifecycle, from model development and evaluation to backend services, deployment pipelines, monitoring, and cloud infrastructure.
 
