@@ -1,10 +1,6 @@
 <h1 align="center">Jagjot Bisram</h1>
 
 <p align="center">
-  <img src="./assets/profile-banner.svg" alt="AI/ML Engineer — reliable models, production systems, and measurable results" width="100%" />
-</p>
-
-<p align="center">
   <strong>I build AI systems that are evaluated like products, operated like infrastructure, and designed to fail safely.</strong>
 </p>
 
