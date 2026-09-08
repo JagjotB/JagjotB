@@ -29,11 +29,6 @@ My core focus is **production AI/ML, reliable agent systems, model evaluation, b
 - Built a multi-tenant FastAPI backend for an LLM-powered voice agent, using Supabase/PostgreSQL row-level security to isolate client workspaces and support tool calling
 - Built a deterministic scheduling engine with milestone dependencies, calendar intersections, capacity constraints, timezone-aware allocation, and idempotent regeneration
 
-### Nanz Pharma — Machine Learning Intern
-
-- Built predictive fault-detection models on sensor time-series data, contributing to a **10% reduction in equipment downtime**
-- Automated Pandas preprocessing pipelines, reducing preparation runtime by **30%**, and helped integrate models into real-time production alerting
-
 ## Featured engineering
 
 ### [Sentinel](https://github.com/JagjotB/Sentinel) — evidence-backed Kubernetes incident investigation
@@ -107,14 +102,20 @@ An end-to-end prediction and decision-support system that models individual game
 **Languages**  
 `Python` `TypeScript` `JavaScript` `SQL` `Rust` `Go` `C++`
 
-**AI, ML, and evaluation**  
-`PyTorch` `scikit-learn` `LightGBM` `XGBoost` `Hugging Face` `NumPy` `Pandas` `LangGraph` `LangChain` `RAG` `embeddings` `ranking`
+**AI and agentic systems**  
+`LLMs` `LangChain` `LangGraph` `RAG` `tool calling` `multi-agent systems` `LLM evaluation` `embeddings`
 
-**Backend and product systems**  
-`FastAPI` `Node.js` `React` `REST` `WebSockets` `PostgreSQL` `SQLAlchemy` `Redis` `event-driven systems`
+**Machine learning**  
+`PyTorch` `scikit-learn` `XGBoost` `LightGBM` `Hugging Face Transformers` `NumPy` `Pandas` `learning-to-rank`
 
-**Infrastructure, cloud, and observability**  
-`Docker` `Kubernetes` `Airflow` `GitHub Actions` `CI/CD` `OpenTelemetry` `Prometheus` `Tempo` `Grafana` `AWS/SQS` `GCP` `Linux`
+**Backend and distributed systems**  
+`FastAPI` `Node.js` `React` `REST` `WebSockets` `PostgreSQL` `SQLAlchemy` `Redis` `distributed systems` `event-driven architecture`
+
+**Infrastructure and observability**  
+`Docker` `Kubernetes` `Airflow` `GitHub Actions` `CI/CD` `OpenTelemetry` `Prometheus` `Tempo` `Grafana` `Linux`
+
+**Cloud and messaging**  
+`AWS` `SQS` `EC2` `S3` `GCP` `Vertex AI` `BigQuery`
 
 ## Education
 
