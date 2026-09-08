@@ -16,6 +16,24 @@ I am an **AI/ML Engineer** focused on the full path from an idea to a dependable
 
 My core focus is **production AI/ML, reliable agent systems, model evaluation, backend architecture, MLOps, and cloud-native infrastructure**.
 
+## Experience highlights
+
+### [Numaflow](https://github.com/numaproj/numaflow) — Open Source Contributor
+
+- Currently developing native **AWS SQS dead-letter queue support** in Numaflow's Rust data plane, including per-queue configuration, validation, failure-path testing, and API/schema updates
+- Shipped **four merged upstream pull requests** across Kubernetes image transformations ([#3382](https://github.com/numaproj/numaflow/pull/3382), [#3389](https://github.com/numaproj/numaflow/pull/3389)), the React Errors interface ([#3392](https://github.com/numaproj/numaflow/pull/3392)), and HTTP-source documentation ([#3376](https://github.com/numaproj/numaflow/pull/3376))
+
+### Riipen Level UP — Software & AI Engineering Internships
+
+- Built Node.js and Python services for a real-time voice AI system, streaming live Twilio call audio over WebSockets for inference and response delivery
+- Built a multi-tenant FastAPI backend for an LLM-powered voice agent, using Supabase/PostgreSQL row-level security to isolate client workspaces and support tool calling
+- Built a deterministic scheduling engine with milestone dependencies, calendar intersections, capacity constraints, timezone-aware allocation, and idempotent regeneration
+
+### Nanz Pharma — Machine Learning Intern
+
+- Built predictive fault-detection models on sensor time-series data, contributing to a **10% reduction in equipment downtime**
+- Automated Pandas preprocessing pipelines, reducing preparation runtime by **30%**, and helped integrate models into real-time production alerting
+
 ## Featured engineering
 
 ### [Sentinel](https://github.com/JagjotB/Sentinel) — evidence-backed Kubernetes incident investigation
@@ -70,7 +88,7 @@ A production-oriented, two-stage search system that retrieves candidates with a 
 
 **[Read the benchmark →](https://github.com/JagjotB/retail-search#retail-search--ranking-system)** &nbsp;·&nbsp; **[Review the reproduction steps →](https://github.com/JagjotB/retail-search#clean-setup-and-full-benchmark)**
 
-## Beyond the flagship projects
+## Additional applied ML
 
 ### [NBA Finals Predictor 2026](https://github.com/JagjotB/nba-finals-predictor-2026) — probabilistic ML under changing evidence
 
@@ -84,26 +102,23 @@ An end-to-end prediction and decision-support system that models individual game
 
 **[Explore the prediction engine →](https://github.com/JagjotB/nba-finals-predictor-2026)**
 
-### [Numaflow](https://github.com/numaproj/numaflow) — four merged upstream contributions
-
-Contributed scoped fixes to a Kubernetes-native open-source streaming platform, working through its existing architecture and review process.
-
-- Corrected Kustomize image transformations for MonoVertex UDFs and `onSuccess` sinks ([#3382](https://github.com/numaproj/numaflow/pull/3382), [#3389](https://github.com/numaproj/numaflow/pull/3389))
-- Fixed nested overflow and unnecessary scrollbars in the Errors interface ([#3392](https://github.com/numaproj/numaflow/pull/3392))
-- Updated HTTP source documentation for configurable port behavior ([#3376](https://github.com/numaproj/numaflow/pull/3376))
-
-**[View all merged contributions →](https://github.com/numaproj/numaflow/pulls?q=is%3Apr+author%3AJagjotB)**
-
 ## Technical focus
 
+**Languages**  
+`Python` `TypeScript` `JavaScript` `SQL` `Rust` `Go` `C++`
+
 **AI, ML, and evaluation**  
-`Python` `PyTorch` `scikit-learn` `LightGBM` `XGBoost` `LangGraph` `LangChain` `RAG` `embeddings` `ranking`
+`PyTorch` `scikit-learn` `LightGBM` `XGBoost` `Hugging Face` `NumPy` `Pandas` `LangGraph` `LangChain` `RAG` `embeddings` `ranking`
 
 **Backend and product systems**  
-`FastAPI` `Node.js` `TypeScript` `React` `REST` `WebSockets` `PostgreSQL` `Redis` `event-driven systems`
+`FastAPI` `Node.js` `React` `REST` `WebSockets` `PostgreSQL` `SQLAlchemy` `Redis` `event-driven systems`
 
-**Infrastructure and operations**  
-`Docker` `Kubernetes` `Airflow` `OpenTelemetry` `Prometheus` `Tempo` `Grafana` `CI/CD` `AWS` `GCP` `Linux`
+**Infrastructure, cloud, and observability**  
+`Docker` `Kubernetes` `Airflow` `GitHub Actions` `CI/CD` `OpenTelemetry` `Prometheus` `Tempo` `Grafana` `AWS/SQS` `GCP` `Linux`
+
+## Education
+
+**Western University** — Bachelor of Science (BSc), Computer Science · 2025
 
 ## How I approach engineering
 
