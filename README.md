@@ -1,68 +1,105 @@
-# Jagjot Bisram
+<p align="center">
+  <img src="./assets/profile-banner.svg" alt="Jagjot Bisram — AI/ML Engineer building reliable intelligent systems" width="100%" />
+</p>
 
-**AI/ML Systems Engineer | Backend Infrastructure | MLOps**
+<p align="center">
+  <strong>I build AI systems that are evaluated like products, operated like infrastructure, and designed to fail safely.</strong>
+</p>
 
-I build production AI and machine learning systems across the full engineering lifecycle, from model development and evaluation to backend services, deployment pipelines, monitoring, and cloud infrastructure.
+<p align="center">
+  <a href="https://www.linkedin.com/in/jagjotbisram"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="Connect on LinkedIn" /></a>
+  <a href="mailto:bisramjagjot@gmail.com"><img src="https://img.shields.io/badge/Email-Say_Hello-111827?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Send an email" /></a>
+  <a href="https://sentinel-reliability.jagjot5.chatgpt.site/"><img src="https://img.shields.io/badge/Live_Project-Sentinel-0F766E?style=for-the-badge&amp;logo=kubernetes&amp;logoColor=white" alt="Open the Sentinel showcase" /></a>
+</p>
 
-My work sits at the intersection of **machine learning, backend engineering, and distributed systems**, with a focus on measurable performance, reliability, and production deployment.
+## Engineering intelligent systems end to end
 
-## Featured Project
+I am an **AI/ML Engineer** focused on the full path from an idea to a dependable system: data and model development, retrieval and ranking, agent orchestration, backend services, evaluation, deployment, observability, and operational safeguards.
 
-### [Retail Search & Ranking System](https://github.com/JagjotB/retail-search)
+My current work sits at the intersection of **production ML, AI reliability, search and ranking, backend architecture, and Kubernetes-native infrastructure**.
 
-Built a two-stage retail search and ranking system evaluated on **600K+ Amazon query-product relevance judgments**, improving **NDCG@10 by 11%** over an embedding-only baseline using ML reranking.
+## Featured engineering
 
-- Dense candidate retrieval and ML reranking
-- Reproducible ranking evaluation and benchmarking
-- Automated model retraining with Apache Airflow
-- Containerized FastAPI inference
-- Docker-based deployment workflow
+### [Sentinel](https://github.com/JagjotB/Sentinel) — evidence-backed Kubernetes incident investigation
 
-## Engineering Background
+<a href="https://sentinel-reliability.jagjot5.chatgpt.site/">
+  <img src="https://raw.githubusercontent.com/JagjotB/Sentinel/build-sentinel/docs/assets/operator-console.png" alt="Sentinel operator console showing an evidence-backed Kubernetes incident investigation" width="100%" />
+</a>
 
-My experience spans production software, AI, and ML systems, including:
+<table width="100%">
+  <tr>
+    <td width="25%" align="center"><strong>324</strong><br /><sub>isolated evaluation runs</sub></td>
+    <td width="25%" align="center"><strong>77.8%</strong><br /><sub>root-cause accuracy</sub></td>
+    <td width="25%" align="center"><strong>88.0%</strong><br /><sub>evidence recall</sub></td>
+    <td width="25%" align="center"><strong>100%</strong><br /><sub>policy safety</sub></td>
+  </tr>
+</table>
 
-- Kubernetes-native platform and infrastructure work
-- Real-time voice AI using Twilio and WebSockets
-- LLM systems with tool-calling workflows
-- Multi-tenant backend architectures
-- FastAPI and Node.js microservices
-- Event-driven and asynchronous systems
-- Scheduling and workflow engines
-- Predictive ML pipelines integrated into production environments
+Sentinel takes an alert from evidence collection to a cited diagnosis. Specialist agents correlate Kubernetes state, telemetry, logs, Git changes, and prior incidents; weak or contradictory evidence triggers abstention instead of a confident guess.
 
-## Core Focus
+- Built a durable LangGraph runtime with concurrent specialists, checkpoints, budgets, retries, and traceable evidence
+- Implemented typed providers for Kubernetes, Prometheus, Tempo, Git, and incident knowledge
+- Combined hybrid BM25/vector retrieval, telemetry anomaly detection, and incident reranking
+- Enforced policy validation and scoped human approval before any proposed change can become an artifact
+- Shipped a FastAPI control plane, React operator console, PostgreSQL/Redis persistence, and OpenTelemetry instrumentation
 
-- Machine learning systems
-- Search, retrieval, and ranking
-- LLM and RAG systems
-- Real-time AI
-- Model serving and inference
-- Backend APIs and microservices
-- MLOps and deployment infrastructure
-- Evaluation, monitoring, and reliability
+The results above come from **nine systems evaluated across 36 seeded simulator incidents**, with a fresh repository and trace for every run. The complete protocol, raw trials, ablations, and limitations are checked into the repository.
 
-## Tech Stack
+**[Explore the architecture →](https://github.com/JagjotB/Sentinel#architecture)** &nbsp;·&nbsp; **[Inspect the evaluation →](https://github.com/JagjotB/Sentinel/blob/build-sentinel/docs/evaluation.md)** &nbsp;·&nbsp; **[Try the live showcase →](https://sentinel-reliability.jagjot5.chatgpt.site/)**
 
-**Languages**  
-Python • TypeScript • JavaScript • SQL • C++ • Go
+---
 
-**Machine Learning and AI**  
-PyTorch • scikit-learn • XGBoost • Pandas • NumPy • LLMs • RAG • Embeddings • Retrieval • Ranking Models
+### [Retail Search & Ranking](https://github.com/JagjotB/retail-search) — learned ranking with a frozen benchmark
 
-**Backend and Applications**  
-FastAPI • Node.js • Express • React • REST APIs • WebSockets • Microservices • Event-Driven Architecture
+<a href="https://github.com/JagjotB/retail-search">
+  <img src="https://raw.githubusercontent.com/JagjotB/retail-search/main/docs/demo/benchmark-comparison.png" alt="Retail Search and Ranking benchmark showing an 11.1832 percent relative NDCG at 10 improvement" width="100%" />
+</a>
 
-**Infrastructure and MLOps**  
-Docker • Kubernetes • Apache Airflow • CI/CD • Monitoring • Linux • Git
+<table width="100%">
+  <tr>
+    <td width="33%" align="center"><strong>+11.18%</strong><br /><sub>relative NDCG@10</sub></td>
+    <td width="33%" align="center"><strong>8,956</strong><br /><sub>frozen test queries</sub></td>
+    <td width="34%" align="center"><strong>181,701</strong><br /><sub>test judgments</sub></td>
+  </tr>
+</table>
 
-**Cloud and Data**  
-AWS • GCP • PostgreSQL • Supabase • BigQuery • Vertex AI
+A production-oriented, two-stage search system that retrieves candidates with a dense index, reranks them with a LightGBM LambdaMART model, and serves the promoted model through FastAPI.
 
-## Current Interests
+- Designed leakage-aware train, validation, and frozen-test boundaries around the Amazon ESCI dataset
+- Versioned datasets, experiments, acceptance reports, and checksummed model artifacts for reproducibility
+- Built a quality-gated Airflow retraining pipeline that promotes only candidates meeting the acceptance contract
+- Packaged the serving path, browser demo, tests, and orchestration stack with Docker
 
-I am especially interested in problems where **model quality and systems engineering matter equally**, including search and ranking, production ML, model serving, AI infrastructure, real-time AI, and evaluation systems.
+**[Read the benchmark →](https://github.com/JagjotB/retail-search#retail-search--ranking-system)** &nbsp;·&nbsp; **[Review the reproduction steps →](https://github.com/JagjotB/retail-search#clean-setup-and-full-benchmark)**
 
-## Connect
+## Additional work
 
-[LinkedIn](https://www.linkedin.com/in/jagjotbisram) • [Email](mailto:bisramjagjot@gmail.com)
+| Project | What I built |
+| --- | --- |
+| **[FIFA World Cup 2026 Predictor](https://github.com/JagjotB/world-cup-2026)** | Historical match modeling, player and lineup features, and tournament-scale Monte Carlo simulation |
+| **[NBA Finals Predictor 2026](https://github.com/JagjotB/nba-finals-predictor-2026)** | Game probabilities, player projections, matchup and lineup analysis, uncertainty modeling, and series simulation |
+| **[Numaflow contributions](https://github.com/numaproj/numaflow/pulls?q=is%3Apr+author%3AJagjotB)** | **Four merged upstream pull requests** spanning Kubernetes image transformations, UI behavior, and product documentation |
+
+## Technical focus
+
+**AI, ML, and evaluation**  
+`Python` `PyTorch` `scikit-learn` `LightGBM` `XGBoost` `LangGraph` `LangChain` `RAG` `embeddings` `ranking`
+
+**Backend and product systems**  
+`FastAPI` `Node.js` `TypeScript` `React` `REST` `WebSockets` `PostgreSQL` `Redis` `event-driven systems`
+
+**Infrastructure and operations**  
+`Docker` `Kubernetes` `Airflow` `OpenTelemetry` `Prometheus` `Tempo` `Grafana` `CI/CD` `AWS` `GCP` `Linux`
+
+## How I approach engineering
+
+- **Measure before claiming.** Define the evaluation contract, preserve the artifacts, and make the result reproducible.
+- **Design for failure.** Treat abstention, retries, rollback, observability, and human approval as product behavior.
+- **Own the full path.** Connect the model to the service, the service to the operator, and the benchmark to the release decision.
+- **Build for inspection.** Keep evidence, provenance, model versions, and operational decisions visible and auditable.
+
+I am especially interested in **AI infrastructure, agent reliability, production ML, search and ranking, and real-time systems**. If you are building ambitious systems in those areas, I would be glad to connect.
+
+<p align="center">
+  <strong>Build it. Measure it. Make it trustworthy.</strong>
+</p>
